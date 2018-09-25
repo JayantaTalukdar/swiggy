@@ -1,0 +1,45 @@
+{
+  "name": "swiggy",
+  "version": "1.0.0",
+  "description": "A replica of the swiggy web application using reactJS\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[R\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayantaTalukdar/swiggy.git"
+  },
+  "author": "Jayanta Talukdar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayantaTalukdar/swiggy/issues"
+  },
+  "homepage": "https://github.com/JayantaTalukdar/swiggy#readme",
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel": "^5.8.23",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "css-loader": "^1.0.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1"
+  }
+}
